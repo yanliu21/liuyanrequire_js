@@ -1,0 +1,57 @@
+/*缺省值begin*/
+	html{ margin:0px; padding:0px;}
+	body{ margin:0px; padding:0px; font-size:12px; font-family:微软雅黑,Microsoft YaHei,Tahoma, Geneva, sans-serif; color:#464646;}
+	a{ text-decoration:none; outline:none; color:#666;}
+	a:hover{ text-decoration:none; outline:none; color:#ff761b;}
+	a:active, a:visited{ outline:none;}
+	p,ul,li,form,h1,h2,h3,h4,h5,h6,dl,dt,dd,img,div,table,td,th,input,textarea{ margin:0px; padding:0px;}
+	h2,h3{font-size:14px;}
+	input,textarea{font-family:微软雅黑,Microsoft YaHei,Tahoma, Geneva, sans-serif;outline:none;font-size:12px;color:#464646;}
+	table,td{ border-collapse:collapse;}
+	ul,li,dl,dt,dd,ol{ list-style:none;}
+	.yahei{font-family:微软雅黑,Microsoft YaHei,Arial,"宋体";}
+	.wrap{width:1056px;margin-left:auto; margin-right:auto;}
+	img{ border:0 none;overflow:hidden; display:block;}
+	em,i{font-style:normal;font-weight:normal;}
+		
+	.list-clearfix:after,
+	.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+	.list-clearfix,
+	.clearfix{zoom:1;}
+		
+	.no-character{font-size:0;}
+	.fontlh{font:12px/1.5 tahoma,arial,\5b8b\4f53;}/*“\5b8b\4f53″ 就是 “宋体”。用 unicode 表示，不用 SimSun, 是因为 Firefox 的某些版本和 Opera 不支持 SimSun 的写法。避免产生乱码，对页面造成影响。*/
+	.red{color:#ee383e;}.blue{color:#1aadc0;}
+		
+	.html-data p{ line-height:2; color:#333;}
+
+
+	.container{ width:1190px; margin:0 auto;}
+	.container_left{ float:left;}
+	.container_right{ float:right;}
+	.content01{ padding-top:12px;}
+	.common{ margin-right:0px!important;}
+	.hidden{ display:none;}
+/*缺省值end*/
+
+
+.container_main{width:100%;margin-bottom:40px;position: relative;}
+.pay_flow_box{width:100%;}
+.pay_flow_box img{display:block;width:100%;}
+
+.flow_box{width:1190px;margin:0 auto;margin-bottom:60px;}
+.flow_box .flow_title{font-size:24px;font-weight:normal;padding:30px 0 20px 0;display:inline-block;line-height: 24px;}
+.flow_box .flow_title span{color:#888888;font-size:12px;margin-left:20px;}
+
+.flow_table_box{width:1190px;padding:30px 0 20px 0;border-top:1px solid #d6d6d6;border-bottom:1px solid #d6d6d6;}
+.flow_box .flow_table{cellpadding:0;cellspacing:0;border:0;width:100%;table-layout:fixed;}
+.flow_box .flow_table td{height:40px;}
+.flow_box .flow_table td p{line-height:20px;font-size: 12px;color:#222;text-align: center}
+.flow_box .flow_table td.td_left p{text-align: left !important;}
+.flow_box .flow_table thead td p{color:#888888 !important;}
+.flow_box .flow_table td.td_orange p{color: #f67300 !important;}
+
+.flow_box .total_price{float:right;margin-top:30px;font-size:12px;color:#222;margin-bottom:-10px;}
+.flow_box .total_price span{color:#f67300;font-size:34px;padding:0 5px;}
+.flow_box .flow_btn{float:right;display:block;width:188px;height:48px;margin-top:30px;line-height:48px;color:#fff;font-size:16px;background:#f67300;text-align:center;}
+.flow_box .flow_btn:hover{color:#fff;}

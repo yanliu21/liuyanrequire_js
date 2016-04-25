@@ -1,0 +1,28 @@
+	/*尾部CSS样式 begin*/
+	.container_footer{ background:#f5f5f5; width:100%; padding:40px 0px 26px 0px;}	
+	.container_footer .footer_lists li{ float:left;}
+	.container_footer .footer_lists li.lists_first{ width:283px; border-right:1px solid #d6d6d6; padding-bottom:40px;}
+	.container_footer .footer_lists li .footer_title{ padding-bottom:20px;}
+	.container_footer .footer_lists li .footer_title h3{ color:#222222; font-size:20px; font-weight:normal; line-height:22px;}
+	.container_footer .footer_lists li .footer_content{ width:210px;}
+	.container_footer .footer_lists li .footer_content p{ color:#888888; font-size:12px; line-height:22px; font-weight:normal; padding-bottom:22px;}
+	.container_footer .footer_lists li.lists_second{ width:266px; padding-left:45px;}
+	.container_footer .footer_lists li .footer_subtitle{ padding-bottom:15px;}
+	.container_footer .footer_lists li .footer_subtitle h4{ color:#222222; font-size:14px; line-height:16px; font-weight:normal;}
+	.container_footer .footer_lists li .footer_secondcontent{ width:238px;}
+	.container_footer .footer_lists li .footer_secondcontent p{color:#888888; font-size:12px; line-height:22px; font-weight:normal; padding-bottom:15px;}
+	.container_footer .footer_lists li .footer_secondcontent a{ font-size:12px; line-height:22px; color:#f67300; font-weight:normal;}
+	.container_footer .footer_lists li.lists_third{ padding-left:28px; width:261px;}
+	.container_footer .footer_lists li .footer_space{ padding-top:42px;}
+	.container_footer .footer_lists li.lists_fourth{ padding-left:28px; width:278px;}
+	.container_footer .footer_lists li .footer_fourthcontent{ width:252px;}
+	.container_footer .footer_lists li .footer_submit{ width:254px; border-top: 1px dashed #d6d6d6;}
+	.container_footer .footer_lists li .footer_submit p{ color:#888888; font-size:12px; line-height:14px; padding:12px 0px 8px 0px;}
+	.container_footer .footer_lists li .footer_submit .input_area{ width:216px; height:31px; border:1px solid #d6d6d6; line-height:33px; padding:0px 10px; font-size:12px; color:#888888; background:#ffffff; margin-bottom:7px;}
+	.container_footer .footer_lists li .footer_submit .input_code{width:133px; height:31px; border:1px solid #d6d6d6; line-height:33px; padding:0px 10px; font-size:12px; color:#888888; background:#ffffff;}
+	.container_footer .footer_lists li .footer_submit .btn_area{ width:73px; height:31px; border:1px solid #f67300; color:#f67300; display:block; line-height:33px; text-align:center; font-size:12px; background:#f5f5f5; margin-left:10px;}
+	.container_footer .footer_lists li .footer_contact{ width:254px; border-top: 1px dashed #d6d6d6;padding-top: 10px;}
+	.container_footer .footer_lists li .footer_contact p{color:#888888; font-size:12px; line-height:22px;}
+	.container_footer .footer_lists li .footer_contact p.phone_number{font-size: 20px;}
+	.container_footer .footer_lists li .footer_contact p.phone_number span{font-size:12px;padding-left:5px;}
+	/*尾部CSS样式 end*/

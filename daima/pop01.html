@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/base.css">
+	<script src="http://style.c.aliimg.com/fdevlib/js/gallery/jquery/jquery-latest.js"></script>
+	<style>
+		.container_main{width:100%;height:2000px;position:relative;}
+		.mask{background:rgba(0,0,0,0.5);width:100%;height:100%;position:absolute;display:none;}
+		.open_pop{display:block;width:188px;height:48px;line-height:48px;color:#fff;font-size:16px;background:#f67300;text-align:center;}
+		.open_pop:hover{color: #fff;}
+		.container_pop{width:460px;background:#fff;position:fixed;top:30%;left:50%;margin-left:-230px;display:none;}
+		.container_pop .pop_close{position:absolute;top:0;right:-24px;width:20px;height:20px;background:url(https://img.alicdn.com/tps/TB1_AXJHVXXXXbaaXXXXXXXXXXX-20-20.png) no-repeat;cursor:pointer;}
+		
+		/* 弹窗1 */
+		.container_pop .pop_con.pop_con_01{margin:50px;text-align: center;}
+		.container_pop .pop_con.pop_con_01 h1{font-size: 24px;font-weight:normal;color: #ff7300;line-height: 32px;}
+		.container_pop .pop_con.pop_con_01 a{font-size: 14px;color:#ff7300;line-height: 32px;display: block;text-decoration: underline;}
+		.container_pop .pop_con.pop_con_01 span{font-size: 14px;color:#888;line-height:32px;}
+		
+	</style>
+</head>
+<body>
+
+<div class="container_main">
+	<div class="mask"></div>
+	<a class="open_pop" href="javascript:;" style="">打开弹层</a>
+	<!-- 弹窗1 -->
+	<div class="container_pop">
+		<div class="pop_close"></div>
+		<div class="pop_con pop_con_01">
+			<h1>网销宝老会员专享优惠</h1>
+			<a href="#" target="_blank">点击进入</a>
+			<span>您已是网销宝会员！</span>
+		</div>	
+	</div>
+</div>
+
+<script>
+	jQuery(function(){
+		var openPop = jQuery('.open_pop');
+		var popBox = jQuery('.container_pop');
+		var closePopBtn = jQuery('.pop_close');
+		var mask = jQuery('.mask');
+
+		openPop.on('click',function(){
+			mask.show();
+			popBox.fadeIn();
+		});
+		mask.on('click',function(){	
+			closePop();
+		});
+		closePopBtn.on('click',function(){	
+			closePop();
+		});
+		function closePop(){
+			popBox.fadeOut();
+			mask.hide();
+		}
+	});
+</script>
+
+</body>
+</html>
